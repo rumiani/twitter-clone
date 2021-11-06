@@ -1,5 +1,5 @@
 import NewTweet from "./newTweet/newTweet";
-import Tweets from "./tweets/Tweets";
+import Tweets from "./tweets/tweets";
 
 const TweetSec = () => {
     console.log(2222222);
