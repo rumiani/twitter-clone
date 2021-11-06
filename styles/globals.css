@@ -1,16 +1,28 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    @apply  flex flex-row;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.nav_btn {
+    @apply  text-gray-700 p-2 pl-4 pr-6 rounded-full w-min flex flex-row text-2xl;
 }
+.nav_btn{
+    @apply hover:bg-gray-200;
+}
+.logo{
+    @apply  text-blue-800 p-3 mb-8 text-2xl rounded-full;
+}
+.logo:hover{
+    @apply  hover:bg-blue-100;
+}
+/* .charLimit{
+    @apply border-2 p-5 h-12 w-12 rounded-full; 
+} */
+.newTweetIcon{
+    @apply p-1 text-xl text-blue-400 rounded-full w-8 h-8 cursor-pointer text-center align-middle duration-300;
+}
+.newTweetIcon:hover{
+    @apply bg-blue-100;
 
-* {
-  box-sizing: border-box;
 }

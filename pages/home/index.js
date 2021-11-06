@@ -1,19 +1,10 @@
 import Head from 'next/head'
-import { useRouter } from 'next/dist/client/router';
-import { useEffect } from 'react';
-// import Nav from '../comps/navbar/nav';
-
-
+import Header from '../../components/header/header'
+import Sidebar from '../../components/sidebar/sidebar'
+import TweetSec from '../../components/tweets/tweetSec'
 export default function Home() {
-  const router = useRouter()
-    useEffect(()=>{
-      setTimeout(() => {
-          // router..go(1)
-          router.push('/home')
-      }, 1);
-    },[])
   return (
-    < >
+    <div className='flex flex-row' >
       <Head>
         <title>Latest Tweets / Twitter</title>
         <meta name="keywords" content="Tweets" />
@@ -25,11 +16,13 @@ export default function Home() {
       <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap"
         rel="stylesheet"
       />
-      <link rel='preload' />      
+      <link rel='preload' /> 
       </Head>
-     {/* < main>
-     <Nav/>
-     </main> */}
-    </>
+     <Header/>
+     < main className='flex flex-row' >
+     <TweetSec/>
+     <Sidebar/>
+     </main>
+    </div>
   )
 }
