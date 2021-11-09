@@ -3,7 +3,7 @@ import { navArr } from './navArr';
 
 const Navbar = () => {
     return ( 
-        <div className = 'flex flex-col w-80 -z-10'>
+        <div className = ' flex flex-col w-80 -z-10 mb-4 mt-2'>
             {navArr.map( (btn,index) => {
             return  <Link href={btn.href} key={index}><a className={`${btn.class} `}>
                         <i className={`${btn.iconClass} pt-1 mr-6 `}></i>
@@ -13,7 +13,6 @@ const Navbar = () => {
                         </a>
                     </Link>
             })}
-            <button className = 'w-2/3 rounded-full bg-blue-400 hover:bg-blue-500 font-bold text-lg text-white p-3 mt-4'>Tweet</button>
         </div>
      );
 }

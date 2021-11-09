@@ -11,7 +11,7 @@ const WhoToFollow = () => {
             {people.map((person,index) => {
                 return <Link href={`/${person.username}`} key={index}>
                 <li  className='flex flex-row duration-300 hover:bg-gray-200 cursor-pointer p-2 h-16'>
-                    <img src={person.src} alt="pic" className='w-2/12 rounded-full mx-2'/>
+                    <img src={person.src} alt="pic" className='w-12 h-12 rounded-full mx-2'/>
                     <div className='flex flex-col w-6/12'>
                         <span className='font-bold -mb-1 hover:underline'>{person.name}</span>
                         <span>@{person.username}</span>

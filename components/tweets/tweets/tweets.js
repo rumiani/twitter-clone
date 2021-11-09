@@ -3,7 +3,7 @@ import {tweetsArr} from "./tweetsArr";
 
 const Tweets = () => {
     return ( 
-        <div className='w-full border-l border-r border-gray-200'>
+        <div className='w-full border-l border-r border-gray-100'>
             <ul>
             {
                 tweetsArr.map( (tweet,index) =>{

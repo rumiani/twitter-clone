@@ -12,7 +12,7 @@ const Trends = () => {
        <div className='flex flex-col w-full rounded-xl bg-gray-100 focus:border-blue-200 focus:bg-white'>
            <span className='flex flex-row justify-between p-4'>
                <h2 className='font-bold text-xl '>Trends for you</h2>
-                <i className="fas fa-cog p-2  hover:border-gray-500 cursor-pointer"></i>
+                <i className="fas fa-cog   iconHover"></i>
             </span>
             {trendsArr.map((trend,index) => <div className='hover:bg-gray-200 cursor-pointer px-4 h-20 duration-300 flex flex-col' key={index}>
                 <span className='text-gray-600 flex flex-row justify-between'>{index+1 +' . '+ trend.trend+' . Trending'}

@@ -49,8 +49,8 @@ export const navArr = [
     }
 ]
 
-{/* <i class="fas fa-user"></i> */}
-{/* <i class="fas fa-envelope"></i> */}
-{/* <i class="fas fa-bookmark"></i>
-<i class="fas fa-list-alt"></i>
-<i class="fas fa-bell"></i> */}
+{/* <i className="fas fa-user"></i> */}
+{/* <i className="fas fa-envelope"></i> */}
+{/* <i className="fas fa-bookmark"></i>
+<i className="fas fa-list-alt"></i>
+<i className="fas fa-bell"></i> */}

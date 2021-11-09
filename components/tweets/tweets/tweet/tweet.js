@@ -15,7 +15,7 @@ const Tweet = ({tweet}) => {
                         <span className='text-gray-500'>@{tweet.username} .</span>
                         <span className='text-gray-500 ml-1'>{tweet.time}</span>
                     </div>
-                    <i className='fas fa-ellipsis-h text-sm text-gray-600'></i>
+                    <i className='fas fa-ellipsis-h text-sm text-gray-600 iconHover'></i>
                 </div>
                 <div >
                     <p className='text-justify'>{tweet.text}</p>
