@@ -11,7 +11,7 @@ export default function Home() {
           // router..go(1)
           router.push('/home')
       }, 1);
-    },[])
+    })
   return (
     < >
       <Head>
