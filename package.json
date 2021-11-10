@@ -9,9 +9,12 @@
     "build:css": "tailwind build styles/tailwind.css -o styles/style.css"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "draft-js": "^0.11.7",
     "next": "12.0.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-highlight-within-textarea": "^2.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",

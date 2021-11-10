@@ -5,7 +5,7 @@ body {
     @apply  flex flex-row;
 }
 .nav_btn {
-    @apply  text-gray-700 p-2 pl-4 pr-6 rounded-full w-min flex flex-row text-2xl;
+    @apply  text-gray-700 h-12 w-min p-2 rounded-full flex flex-row text-2xl;
 }
 .nav_btn{
     @apply hover:bg-gray-200;
@@ -28,4 +28,7 @@ body {
 }
 .iconHover{
     @apply hover:bg-blue-100 text-center align-text-bottom p-2 duration-300 w-8 h-8 rounded-full cursor-pointer;
+}
+.DraftEditor-root{
+    @apply  text-center align-text-bottom duration-300 h-8 rounded-full text-lg;
 }

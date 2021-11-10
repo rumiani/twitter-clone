@@ -6,7 +6,7 @@ const Tweet = ({tweet}) => {
     const likeHandler = () => setLike(!like)
     const retweetHandler = () => setRetweet(!retweet)
     return ( 
-        <div className=' flex flex-row p-4 hover:bg-gray-100 cursor-pointer border-b border-gray-200'>
+        <div className='w-full flex flex-row p-4 hover:bg-gray-100 cursor-pointer border-b border-gray-200'>
             <img src={tweet.src} alt="pic" className = 'w-1/12 bg-green-400 mr-2 rounded-full h-11 hover:opacity-70 hover:cursor-pointer' />
             <div className='w-11/12'>
                 <div className='flex flex-row justify-between'>

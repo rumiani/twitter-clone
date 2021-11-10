@@ -14,7 +14,7 @@ const cleanInputHandler = () => {
 }
     return ( 
         <div className='w-full relative mb-4 group fixed'>
-            <input className='w-full h-10 pl-16 ring-offset-blue-500 outline-none rounded-full bg-gray-200 border focus:border-blue-400 focus:bg-white' 
+            <input className='w-full h-10 pl-16 ring-offset-blue-500 outline-none rounded-full bg-gray-100 border focus:border-blue-400 focus:bg-white' 
             type="text" placeholder='Search Twitter' ref={clean} onChange={e =>changeHandler(e)} />
             <i className="fas fa-search absolute left-4  text-2xl pt-1 group-hover:border-blue-500"></i>
             <i className={`fas fa-times-circle ${input?'visible':'invisible'}  absolute right-4 text-blue-500 cursor-pointer text-2xl pt-1`}

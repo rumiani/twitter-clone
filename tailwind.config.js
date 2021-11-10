@@ -10,6 +10,9 @@ module.exports = {
       },
       boxShadow: {
         'messageShadow':'0px 1px 4px 1px gray'
+      },
+      screens: {
+        'mobile': {'max' : '500px'}
       }
     }
   },

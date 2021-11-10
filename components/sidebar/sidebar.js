@@ -6,9 +6,9 @@ import Messages from "./messages/messages";
 
 const Sidebar = () => {
     return ( 
-        <div className='flex flex-col pt-2 w-96 pl-4'>
+        <div className=' flex-col pt-2 xl:w-96 w-full pl-4 pr-4 lg:block hidden'>
             <Search/>
-            <div className=' flex flex-col py-2  items-center lg:visible invisible h-screen sticky -top-450'>
+            <div className=' flex flex-col py-2  items-center h-screen sticky -top-450'>
                 <Trends/>
                 <WhoToFollow/>
                 <Footer/>

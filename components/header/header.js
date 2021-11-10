@@ -5,7 +5,7 @@ import TweetBtn from "./tweetBtn/tweetBtn";
 
 const Header = () => {
     return ( 
-        <div className=' w-80 h-screen mt-4  pl-14 fixed bg-white'>
+        <div className=' xl:w-80  h-screen mt-4  xl:pl-14 pl-4 fixed bg-white'>
             <Logo/>
             <Navbar/>
             <TweetBtn/>
